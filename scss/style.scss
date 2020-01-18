@@ -1,0 +1,447 @@
+$primary: #1e798b;
+$logocolor: #161B2E;
+$secondary: white;
+$primary-overlay: rgba(38, 38, 38, 0.8);
+
+body {
+  margin-top: 110px;
+}
+
+
+/////////////////////////////////////////////NAVBAR//////////////////////////////////////////////////////
+.navbar {
+  box-shadow: 2px 2px 5px $logocolor;
+  opacity: 0.9;
+  background: #fff;
+  color: black;
+  .nav-item {
+    color: black;
+    font-size: 1.2rem;
+    padding-right: 1.4rem;
+    .text-nav {
+      color: black;
+    }
+  }
+}
+
+////////////////////////////////////////SHOWCASE/////////////////////////////////////////////////////////
+//                                      QUOTE                                                          //
+#showcase {
+  position: relative;
+  background: $logocolor;
+  width: 100%;
+  min-height: 200px;
+  border-bottom: none;
+}
+
+//                                      Who is site intended for                                                          //
+//                                      QUOTE                                                          //
+#about2 {
+  position: relative;
+  color: white;
+  background: #1e798b;
+
+  .info-header {
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+  }
+}
+
+#footerindex {
+  background: $logocolor;
+}
+
+
+
+#authors {
+  img {
+    margin-top: -50px;
+  }
+  .card:hover {
+    background: $primary;
+    color: white;
+
+    .fas {
+      color: white;
+    }
+    .fab {
+      color: white;
+    }
+  }
+  .fas {
+    color: $primary;
+  }
+
+  .fab {
+    color: $primary;
+  }
+}
+
+@media (max-width: 768px) {
+  #hol {
+    color: green;
+    padding-bottom: 150px;
+  }
+
+  #showcase {
+    position: relative;
+
+    margin-top: 10px;
+
+    background: purple;
+    height: 550px;
+
+    border-bottom: none;
+
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+
+  #resources-list {
+    .card {
+      height: 600px;
+    }
+
+    .card-height {
+      height: 450px;
+      border-color: blue;
+    }
+
+    .card-text {
+      height: 100%;
+      border-color: red;
+    }
+    .card-img-top {
+      border-color: red;
+      height: 90%;
+      width: 90%;
+    }
+  }
+
+  #about {
+    .info-header {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+    }
+    p {
+      //font-size: 1.1rem;
+
+      text-align: justify;
+      color: green;
+    }
+  }
+
+  #about2 {
+    .info-header {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+    }
+  }
+
+  ///////////////////////////////////////////About content/////////////////////////////////////
+  #about-content {
+    .info-header {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+    }
+  }
+
+  ////////////////////////////////////////////Coding//////////////////////////////////////////////
+  #showcase-coding {
+    position: relative;
+
+    margin-top: 10px;
+
+    background: purple;
+    height: 300px;
+
+    border-bottom: none;
+
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+
+  #showcase-scratch {
+    position: relative;
+
+    margin-top: 10px;
+
+    background: white;
+    min-height: 800px;
+
+    border-bottom: none;
+
+    h1 {
+      font-size: 3.2rem;
+    }
+  }
+}
+
+/////////////////////////About HTML ///////////////////////////////////
+
+#about-content {
+  width: 100%;
+  margin: auto;
+
+  .heading {
+    font-size: 2.5rem;
+    color: $primary;
+  }
+  .h1 {
+    font-size: 1rem;
+    color: pink;
+  }
+}
+
+#resources-list {
+  .card-height1 {
+    height: 500px;
+    border-color: red;
+
+    .card-img-top {
+      height: 250px;
+    }
+  }
+
+  .card-body {
+    height: 250px;
+  }
+
+  .card-text {
+    height: 160px;
+  }
+
+  .card-height2 {
+    height: 500px;
+    border-color: purple;
+
+    .card-img-top {
+      height: 250px;
+    }
+    .card-body {
+      height: 500px;
+    }
+  }
+  .card-height3 {
+    height: 500px;
+    border-color: blue;
+
+    .card-img-top {
+      height: 250px;
+    }
+    .card-body {
+      height: 500px;
+    }
+  }
+  .card-height4 {
+    height: 500px;
+    border-color: green;
+
+    .card-img-top {
+      height: 250px;
+    }
+  }
+}
+
+#arduino-section {
+  position: relative;
+  color: black;
+
+  background: #f4f4f4;
+
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    margin-top: 0px;
+  }
+}
+
+#rhaspberry-section {
+  position: relative;
+  color: black;
+
+  background: #f6f5fa;
+
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    margin-top: 0px;
+  }
+}
+
+#makey-section {
+  position: relative;
+  color: white;
+
+  background: #6600cc;
+
+  .col-lg {
+    padding-top: 80px;
+  }
+
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    margin-top: 0px;
+  }
+
+  .btn-outline-white {
+    color: white;
+    border: white;
+  }
+}
+
+#little-section {
+  position: relative;
+  color: black;
+
+  background: white;
+
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    margin-top: 0px;
+  }
+}
+
+#ulstyle {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  #resources-list {
+    .card-img-top {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 50%;
+      width: 50%;
+      font-size: 8px;
+    }
+
+    .card-height1 {
+      height: 500px;
+      border-color: black;
+    }
+
+    .card-height2 {
+      height: 500px;
+      border-color: purple;
+    }
+    .card-height3 {
+      height: 500px;
+      border-color: blue;
+    }
+    .card-height4 {
+      height: 500px;
+      border-color: green;
+    }
+
+    .card-text {
+      height: 40%;
+    }
+  }
+
+  #arduino-section {
+    position: relative;
+    color: black;
+
+    background: #f4f4f4;
+
+    .center-block {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 2px;
+    }
+  }
+}
+
+/////////////////////Coding////////////////////////////
+#showcase-coding {
+  position: relative;
+
+  margin-top: 10px;
+
+  background: purple;
+  min-height: 280px;
+  border-bottom: 1px #ddd solid;
+
+  p {
+    border-bottom: 1px black solid;
+  }
+}
+
+#showcase-scratch {
+  background: #dfdfdf;
+
+  p {
+    // border-bottom: 1px black solid;
+  }
+}
+
+#freecodecamp {
+  background: white;
+
+  p {
+    // border-bottom: 1px black solid;
+  }
+}
+
+#project-list {
+  .card-height1 {
+    height: 170px;
+    border-color: red;
+
+    .card-img-top {
+      height: 1px;
+    }
+  }
+
+  .card-text {
+    height: 80px;
+  }
+
+  .card-height2 {
+    height: 170px;
+    border-color: purple;
+
+    .card-img-top {
+      height: 1px;
+    }
+  }
+  .card-height3 {
+    height: 170px;
+    border-color: green;
+
+    .card-img-top {
+      height: 1px;
+    }
+  }
+  .card-height4 {
+    height: 500px;
+    border-color: green;
+
+    .card-img-top {
+      height: 250px;
+    }
+  }
+}
