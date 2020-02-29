@@ -38,32 +38,9 @@
             <li class="nav-item">
               <a href="projects.html" class="nav-link text-nav">Tutorials</a>
             </li>
-            <li class="nav-item dropdown text-nav">
-              <a
-                class="nav-link dropdown-toggle text-nav"
-                href=""
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Resources
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="electronics.html">Electronics</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="resources.html">Sites</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="coding.html">Coding</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="onlinecourses.html"
-                  >Online Courses</a
-                >
-              </div>
-            </li>
+     
             <li class="nav-item">
-              <a href="#authors" class="nav-link text-nav">Meet the Author</a>
+              <a href="#authors" class="nav-link text-nav">Meet the Team</a>
             </li>
             <li class="nav-item">
               <a href="#contact" class="nav-link text-nav">Contact</a>
@@ -95,7 +72,7 @@
 
     <!--Who is this site for-->
 
-    <section id="about2" class="py-1 text-center ">
+    <section id="who-is-site-for" class="py-1 text-center ">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -112,14 +89,28 @@
                 student/teacher/hacker.
                 <br>
                 <br>
-                Please feel free to contribute, and contact us.
-                
+                Start joining the movement
+              
               </p>
-              <a id="cont" href="#contact" class="btn btn-dark  btn-lg  " 
-              > Contact</a
+              <a id="cont" href="projects.html" class="btn btn-dark  btn-lg  " 
+              > Go</a
             >
-            <br>
-            <br>
+            <p class="lead pt-3 pb-1">
+              
+              
+                Please feel free to contribute, and contact us.
+                <br>
+                <br>
+                <a id="cont" href="#contact" class="btn btn-dark  btn-lg  " 
+                > Contact</a
+              >
+            
+          
+          
+            </p>
+
+         
+          
             </div>
           </div>
         </div>
@@ -184,25 +175,18 @@
                   Electrical and Electronic Engineer / Teacher and electronic
                   enthusiast. 
                 </p>
-                <div class="d-flex ">
+                <div class="d-flex justify-content-center">
                   <div class="p-4">
                     <a href="https://vernonpeens.me" target="_blank">
+                      <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="https://www.makerspaceworld.fun/vernonpeens" target="_blank">
                       <i class="fas fa-user-tie fa-2x"></i>
                     </a>
                   </div>
-                  <div class="p-4">
-                    <a href="https://twitter.com/VernonPeens" target="_blank">
-                      <i class="fab fa-twitter fa-2x"></i>
-                    </a>
-                  </div>
-                  <div class="p-4">
-                    <a
-                      href="https://www.youtube.com/channel/UCWqcK1LwUP90jxRcoYMfu7g?view_as=subscriber"
-                      target="_blank"
-                    >
-                      <i class="fab fa-youtube fa-2x"></i>
-                    </a>
-                  </div>
+              
                 </div>
               </div>
             </div>
@@ -358,7 +342,7 @@
         }
       });
 
-      $("#cont a").on("click", function(event) {
+      $("#cont ").on("click", function(event) {
         if (this.hash !== "") {
           event.preventDefault();
           const hash = this.hash;

@@ -36,7 +36,7 @@ body {
 
 //                                      Who is site intended for                                                          //
 //                                      QUOTE                                                          //
-#about2 {
+#who-is-site-for {
   position: relative;
   color: white;
   background: #1e798b;
@@ -79,10 +79,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  #hol {
-    color: green;
-    padding-bottom: 150px;
-  }
+
 
   #showcase {
     position: relative;
@@ -393,17 +390,13 @@ body {
 #showcase-scratch {
   background: #dfdfdf;
 
-  p {
-    // border-bottom: 1px black solid;
-  }
+ 
 }
 
 #freecodecamp {
   background: white;
 
-  p {
-    // border-bottom: 1px black solid;
-  }
+
 }
 
 #project-list {
